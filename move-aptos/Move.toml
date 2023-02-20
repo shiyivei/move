@@ -1,0 +1,10 @@
+[package]
+name = 'move-aptos'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = {git = '/Users/qinjianquan/Career/aptos-core',subdir = 'aptos-move/framework/aptos-framework',rev = 'main'}
+
+
+[addresses]
+MyAddr =  "0x08198230abd5589cd7f958dbdf07c4d1ad4db62a452b658ec086018bf128cff2"
